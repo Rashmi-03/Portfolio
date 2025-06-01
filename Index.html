@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rashmi - Front-End Developer & Designer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header id="home">
+        <div class="container header-content">
+            <h1 class="logo">Rashmi</h1>
+            
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="hero-text">
+            <p class="greeting">Hello, I'm</p>
+            <h2>Rashmi</h2>
+            <p class="tagline">Front-End Developer & Designer</p>
+            <a href="#projects" class="btn primary-btn">View My Work <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <p class="about-description">
+                    I am Rashmi, a passionate **Front-End Developer** and **UI/UX Designer** dedicated to crafting intuitive, visually appealing, and responsive web experiences. With a keen eye for detail and a love for clean code, I bring ideas to life using modern web technologies. I specialize in HTML5, CSS3, JavaScript, and frameworks like React, ensuring a seamless user journey from concept to deployment.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-react"></i>
+                        <span>React.js</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git & GitHub</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-paint-brush"></i>
+                        <span>Figma / UI Design</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x250/6a11cb/ffffff?text=Project+1" alt="Portfolio Website Mockup">
+                        <h3>Personal Portfolio</h3>
+                        <p>Designed and developed a responsive personal portfolio website showcasing my skills and projects using HTML, CSS, and vanilla JavaScript.</p>
+                        <a href="#" class="btn secondary-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x250/2575fc/ffffff?text=Project+2" alt="To-Do App Mockup">
+                        <h3>Interactive To-Do App</h3>
+                        <p>A simple yet robust task management application built with React, featuring state management and user-friendly interactions.</p>
+                        <a href="#" class="btn secondary-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x250/00bcd4/ffffff?text=Project+3" alt="E-commerce Store Mockup">
+                        <h3>E-commerce Product Page</h3>
+                        <p>Front-end implementation of a dynamic e-commerce product page with interactive elements and responsive design.</p>
+                        <a href="#" class="btn secondary-btn">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> Email: <a href="mailto:Rashmibelle67@gmail.com">Rashmibelle67@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> Phone: +91 8152833103</p>
+                    <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/yourlinkedinprofile" target="_blank">linkedin.com/in/rashmi</a></p>
+                    <p><i class="fab fa-github"></i> GitHub: <a href="https://github.com/yourgithubprofile" target="_blank">github.com/rashmi</a></p>
+                </div>
+                <a href="mailto:Rashmibelle67@gmail.com" class="btn primary-btn contact-btn">Send Me a Message <i class="fas fa-paper-plane"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; <span id="current-year"></span> Rashmi. All rights reserved.</p>
+            <ul class="social-links">
+                <li><a href="https://linkedin.com/in/yourlinkedinprofile" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/yourgithubprofile" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a></li>
+                <li><a href="mailto:Rashmibelle67@gmail.com" aria-label="Email Me"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
